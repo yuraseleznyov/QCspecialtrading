@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SpecialTradingStrategy
+Bundle-SymbolicName: com.quantcomponents.algo.special
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6, JavaSE-1.7
+Import-Package: com.quantcomponents.algo,
+ com.quantcomponents.core.calendar,
+ com.quantcomponents.core.model,
+ com.quantcomponents.core.model.beans,
+ com.quantcomponents.core.series,
+ com.quantcomponents.core.utils,
+ com.quantcomponents.marketdata,
+ com.quantcomponents.series.jdbc,
+ com.quantcomponents.series.jdbc.derby
+Service-Component: OSGI-INF/SpecialTAFactory.xml

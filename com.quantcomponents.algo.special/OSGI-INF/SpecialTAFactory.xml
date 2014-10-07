@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.quantcomponents.algo.special.specialTAFactory">
+   <implementation class="com.quantcomponents.algo.special.SpecialTradingAgentFactory"/>
+   <service>
+      <provide interface="com.quantcomponents.algo.ITradingAgentFactory"/>
+   </service>
+</scr:component>
